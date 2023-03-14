@@ -1,0 +1,39 @@
+name: project_new
+description: An example hello brick.
+version: "1.1"
+vars:
+  nameProject:
+    type: string
+    description: Your project.
+    default: project_flutter
+    prompt: What is the name of a project?
+    
+  nameApp:
+    type: string
+    description: Your nameApp.
+    default: FlutterApp
+    prompt: What is the name of a app?
+    
+  namePackage:
+    type: string
+    description: Your namePackage1.
+    default: com.projectex.projectex
+    prompt: What is the first name of a package?
+    
+  primaryColor:
+    type: string
+    description: Your primaryColor.
+    default: "0xFF0C9132"
+    prompt: What is the primary color ?
+    
+  secondaryColor:
+    type: string
+    description: Your secondaryColor.
+    default: "0xFF2D460A"
+    prompt: What is the secondary color ?
+    
+  backgroundColor:
+    type: string
+    description: Your backgroundColor.
+    default: "0xFFFFFFFF"
+    prompt: What is the background color ?
