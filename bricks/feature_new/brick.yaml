@@ -1,0 +1,9 @@
+name: feature_new
+description: An example hello brick.
+version: "1.1"
+vars:
+  featureName:
+    type: string
+    description: Your feature.
+    default: meta_gols
+    prompt: What is the name of a feature?
