@@ -1,8 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-
 import '../../../../core/injections.dart';
-import '../../../../features/{{featureName.snakeCase()}}/domain/usecases/{{featureName.snakeCase()}}_data_usecase.dart';
+import '../../domain/usecases/{{featureName.snakeCase()}}_data_usecase.dart';
 
 part '{{featureName.snakeCase()}}_event.dart';
 

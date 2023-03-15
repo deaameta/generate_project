@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../features/{{featureName.snakeCase()}}/presentation/bloc/{{featureName.snakeCase()}}_bloc.dart';
+import '../../presentation/bloc/{{featureName.snakeCase()}}_bloc.dart';
 
 class {{featureName.pascalCase()}}Page extends StatefulWidget {
   const {{featureName.pascalCase()}}Page({Key? key}) : super(key: key);

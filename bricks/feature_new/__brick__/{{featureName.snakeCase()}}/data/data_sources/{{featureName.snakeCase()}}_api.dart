@@ -6,7 +6,7 @@ class {{featureName.pascalCase()}}Api {
 
   Future<Either<Failure, bool>> get{{featureName.pascalCase()}}Data({required int id}) async {
     try {
-      final result = (await sl<Dio>().get("balance-info/golc",)).data;
+      final result = (await sl<Dio>().get("v2/get",)).data;
       Map<String,dynamic>? body = result["body"];
       // BalanceInfoModel.fromJson(body)
         return  const Right(true);
