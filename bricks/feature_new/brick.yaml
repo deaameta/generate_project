@@ -7,3 +7,8 @@ vars:
     description: Your feature.
     default: meta_gols
     prompt: What is the name of a feature?
+  projectName:
+    type: string
+    description: Your Project Name.
+    default: meta_gols
+    prompt: What is the name of a project?

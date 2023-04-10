@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import '../../../../core/injections.dart';
+import 'package:{{projectName}}/src/core/core.dart';
 import '../../domain/usecases/{{featureName.snakeCase()}}_data_usecase.dart';
 
 part '{{featureName.snakeCase()}}_event.dart';

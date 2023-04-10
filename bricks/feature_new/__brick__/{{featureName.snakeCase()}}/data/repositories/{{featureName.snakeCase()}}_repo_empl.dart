@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 
-import '../../../../core/core.dart';
+import 'package:{{projectName}}/src/core/core.dart';
 import '../../domain/repositories/{{featureName.snakeCase()}}_repository.dart';
 import '../data_sources/{{featureName.snakeCase()}}_api.dart';
 

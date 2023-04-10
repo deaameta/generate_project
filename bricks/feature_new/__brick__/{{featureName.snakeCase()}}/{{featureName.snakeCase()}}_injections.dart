@@ -1,4 +1,4 @@
-import '../../../../src/core/core.dart';
+import 'package:{{projectName}}/src/core/core.dart';
 import 'data/data_sources/{{featureName.snakeCase()}}_api.dart';
 import 'data/repositories/{{featureName.snakeCase()}}_repo_empl.dart';
 import 'domain/repositories/{{featureName.snakeCase()}}_repository.dart';

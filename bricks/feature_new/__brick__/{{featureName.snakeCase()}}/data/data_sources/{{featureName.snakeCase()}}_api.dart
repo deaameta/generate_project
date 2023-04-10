@@ -1,6 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import '../../../../core/core.dart';
+import 'package:{{projectName}}/src/core/core.dart';
+
 class {{featureName.pascalCase()}}Api {
 
 

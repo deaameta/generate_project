@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import '../repositories/{{featureName.snakeCase()}}_repository.dart';
-import '../../../../core/core.dart';
+import 'package:{{projectName}}/src/core/core.dart';
 class {{featureName.pascalCase()}}DataUseCase extends UseCase<bool, {{featureName.pascalCase()}}Params> {
   final  {{featureName.pascalCase()}}Repository repository;
 {{featureName.pascalCase()}}DataUseCase(this.repository);
